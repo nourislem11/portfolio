@@ -1,22 +1,28 @@
 *{
     box-lines: border-box ;
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
 }
 body{
     font-family: Arial, sans-serif;
-    background-color: #d9dee3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
+    background-color: #ffff;
+   
+  
+  max-width: 700px;
+  margin: 0 auto;
+    
 }
 .card{
-    width: 100%;
-    max-width: 620px;
-    background-color: #27d924;
-    border-radius: 20px;
-    overflow: hidden;
+    
+    background: linear-gradient(to bottom, rgb(255, 81, 0), rgb(255, 247, 0));
 
 }
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  display: block;
+  object-fit: cover;
+}
+
